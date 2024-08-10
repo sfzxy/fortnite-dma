@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DMAHandler">
+      <UniqueIdentifier>{b0f4e4e4-dbb3-4394-9954-5001040d0002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kmboxnet">
+      <UniqueIdentifier>{9e6c85f9-4b9d-44ad-a30f-09cf994f9055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fortnite">
+      <UniqueIdentifier>{4ab14a4c-7b0e-4fb1-b790-3798472a7591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{ace05c71-7165-4fee-8598-67a8eb3d894e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\ImGui">
+      <UniqueIdentifier>{770704d7-e976-426c-8356-4d50795dd13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\fonts">
+      <UniqueIdentifier>{c7c5437c-4414-4a31-b819-761de60877aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{0812c39e-8f91-46fa-8d2d-46ab1ac0b7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{4ea30d1d-fa8e-4687-aa6c-f71529860a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="console">
+      <UniqueIdentifier>{16a11c6c-371d-4a85-8063-43605cdc19f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kmboxserial">
+      <UniqueIdentifier>{55a91d63-71fb-48dd-81ad-c9ba0792e549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="radar">
+      <UniqueIdentifier>{7f9b4dc9-2a59-4516-ae8c-6d0971914d6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dma.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="DMAHandler.cpp">
+      <Filter>DMAHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="NetConfig\kmboxNet.cpp">
+      <Filter>kmboxnet</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui.cpp">
+      <Filter>render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_draw.cpp">
+      <Filter>render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_freetype.cpp">
+      <Filter>render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_tables.cpp">
+      <Filter>render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_widgets.cpp">
+      <Filter>render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_impl_dx11.cpp">
+      <Filter>render\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="render\ImGui\imgui_impl_win32.cpp">
+      <Filter>render\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DMAHandler.h">
+      <Filter>DMAHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="NetConfig\HidTable.h">
+      <Filter>kmboxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="NetConfig\kmboxNet.h">
+      <Filter>kmboxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="pointers.h">
+      <Filter>fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="loop.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="gameFunctions.h">
+      <Filter>fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="kmboxcom.h">
+      <Filter>kmboxserial</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.h">
+      <Filter>radar</Filter>
+    </ClInclude>
+    <ClInclude Include="kmbox_interface.h">
+      <Filter>kmboxserial</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imconfig.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui_freetype.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui_internal.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui_settings.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imstb_rectpack.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imstb_textedit.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imstb_truetype.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="font1.h">
+      <Filter>render\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui_impl_dx11.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="render\ImGui\imgui_impl_win32.h">
+      <Filter>render\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="freetype\win64\freetype.lib">
+      <Filter>render\ImGui</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
